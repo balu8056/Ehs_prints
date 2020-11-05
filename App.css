@@ -1,0 +1,54 @@
+body {
+  overflow-x: hidden;
+}
+#navBar1 {
+  background-color: #0d375d;
+}
+#navBar2 {
+  background-color: #0d375d;
+  padding: 10px;
+  border-top: 1px solid grey;
+}
+#loginTopNav {
+  border-right: 1px solid grey;
+}
+
+#navLogoImg {
+  width: 150px;
+  height: 40px;
+}
+
+.left .navigation li {
+  list-style-type: none;
+}
+
+.left .navigation li :hover {
+  text-decoration-line: none;
+  color: blue;
+}
+
+.left .navigation li:last-child:before {
+  content: ">";
+  font-family: FontAwesome;
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#posters {
+  background-color: lightgray;
+}
+
+#card1:hover {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  transform: scale(1.2);
+  background-color: white;
+  z-index: 1;
+  transition: all 0.5s ease;
+}
+
+.hideAndSeek {
+  display: hidden;
+}
